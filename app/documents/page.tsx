@@ -1,14 +1,15 @@
-export default function DocumentsPage() {
+export default function CommitteePage() {
   return (
     <main style={{ padding: "2rem", fontFamily: "Arial" }}>
-      <h1>📄 Documents</h1>
-      <p>You can download important building documents below:</p>
-      <ul>
-        <li>
-          <a href="/docs/strata_rules.pdf" download>📥 Strata Rules PDF</a>
-        </li>
+      <h1>👥 Strata Committee</h1>
+      <p>This building is managed by an elected Strata Committee under the Strata Schemes Management Act (2015).</p>
+      <ul style={{ marginTop: "1rem" }}>
+        <li><strong>Chairperson:</strong> Alice Johnson</li>
+        <li><strong>Secretary:</strong> Benjamin Lee</li>
+        <li><strong>Treasurer:</strong> Clara Smith</li>
       </ul>
     </main>
   );
 }
+
 
