@@ -18,7 +18,7 @@ export default function HomePage() {
 
       {/* 🧭 显示当前部署环境 */}
       <p style={{ marginTop: "2rem", fontStyle: "italic", color: "gray" }}>
-        当前环境：
+        the current environment：
         {currentEnv === 'Production' && '🚀 Production'}
         {currentEnv === 'Preview' && '🔬 Preview'}
         {currentEnv === 'Development' && '🔧 Development'}
